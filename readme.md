@@ -9,6 +9,7 @@
 
 src文件夹下有着未编译的源码和demo(src/index.js是demo,src/component里面是未编译的源码),  复制到react项目中就能跑
 
+```
 代码
 code demo
 import React from 'react';
@@ -26,8 +27,9 @@ class App extends React.Component {
     return <ReactTree data={json数据} showAll={false} click={this.click} childLayout={childLayout} size={1} />
   }
 }
+```
 
-
+```
 /* 说明(description)
   必传   1.data是一个json数据
   必传   2.childLayout是react的函数组件,返回的dom元素是每个子节点,大小决定树状图的大小, 接受一个对象props(Object类型)
@@ -41,8 +43,10 @@ class App extends React.Component {
   非必传 4.showAll是一个Boolean类型(不是非要布尔类型,js会隐式转换),如果是true,把数据全部显示，如果是false或者不传，就会默认显示数据最左边一列, 只要点击就能切换节点显示
   非必传 5.size是一个Number,如果觉得每一层dom元素拥挤，可以传入数字进行调节每一层的间距
 */
+```
 
-childLayout具体参考这里(先看上面的说明)
+```
+<!-- childLayout具体参考这里(先看上面的说明) -->
 // 每一个子节点的结构和样式(最简洁的)
 function childLayout (props) {
   // 非常重要！非常重要！非常重要！这里的onClick给dom绑定点击事件,复制黏贴就行了，不能改更，只能写成onClick={() => {props.click(props.path, props.data)
@@ -74,6 +78,7 @@ function childLayout (props) {
   </div>
 }
 
+```
 
 本插件 从react_tree_j@1.0.2开始可以正常使用
 
