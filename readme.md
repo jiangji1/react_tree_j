@@ -1,19 +1,16 @@
 一个react的树状图插件   效果图在最后
 
-<!--
-github
-npm i
-npm run k
--->
+把项目克隆下来先npm i，再npm run k就跑起来了
+
 
 安装 npm install react_tree_j
 
-引入 import ReactTree from './react_tree_j';
+引入 import ReactTree from 'react_tree_j';
 
 src文件夹下有着未编译的源码和demo(src/index.js是demo,src/component里面是未编译的源码),  复制到react项目中就能跑
 
 代码
-<!-- code
+code demo
 import React from 'react';
 import ReactTree from './react_tree_j';
 function childLayout (props) {
@@ -29,7 +26,7 @@ class App extends React.Component {
     return <ReactTree data={json数据} showAll={false} click={this.click} childLayout={childLayout} size={1} />
   }
 }
--->
+
 
 /* 说明(description)
   必传   1.data是一个json数据
