@@ -82,7 +82,6 @@ function childLayout (props) {
 
 最后附上2张效果图
 
-![1](.\imgs\1.png)
 ![1](https://raw.githubusercontent.com/jiangji1/react_tree_j/master/imgs/1.png)
 
-![2](.\imgs\2.png)
+https://raw.githubusercontent.com/jiangji1/react_tree_j/master/imgs/2.png
