@@ -84,4 +84,4 @@ function childLayout (props) {
 
 ![1](https://raw.githubusercontent.com/jiangji1/react_tree_j/master/imgs/1.png)
 
-https://raw.githubusercontent.com/jiangji1/react_tree_j/master/imgs/2.png
+![2](https://raw.githubusercontent.com/jiangji1/react_tree_j/master/imgs/2.png)
