@@ -31,7 +31,7 @@ class App extends React.Component {
 
 ```
 /* 说明(description)
-  必传   1.data是一个json数据
+  必传   1.data是一个json数据,如果有子集,需要提供child字段(Array数组类型) 最后面有json数据，可以直接复制
   必传   2.childLayout是react的函数组件,返回的dom元素是每个子节点,大小决定树状图的大小, 接受一个对象props(Object类型)
   props.data 是 每个子节点的数据 Object类型
   props.tier 是 第几层级 Number类型
